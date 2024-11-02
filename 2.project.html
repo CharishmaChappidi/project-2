@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+        }
+        
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        nav ul li a:hover {
+            color: #ff9800;
+        }
+        
+        .poster-gallery, .trailer-gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        
+        .poster-gallery img, .trailer-gallery iframe {
+            width: 180px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        .character {
+            cursor: pointer;
+            text-align: center;
+        }
+        
+        .quote {
+            text-align: center;
+            margin-top: 20px;
+            font-style: italic;
+            font-size: 1.2em;
+            color: #555;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #222;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <title>Movie Buff Central</title>
+</head>
+<body>
+    <header>
+        <h1>Movie Buff Central</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#characters">Characters</a></li>
+                <li><a href="#trailers">Trailers</a></li>
+                <li><a href="#quotes">Quotes</a></li>
+                <li><a href="#trivia">Trivia</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Home Section -->
+        <section id="home">
+            <h2>Welcome to Movie Buff Central!</h2>
+            <p>Your ultimate destination for the Indian films of 2024!</p>
+            <div class="poster-gallery">
+                <img src="https://upload.wikimedia.org/wikipedia/en/4/4c/Kalki_2898_AD.jpg" alt="Kalki 2898 AD">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/Stree_2.jpg/220px-Stree_2.jpg" alt="Stree 2">
+                <img src="https://static.toiimg.com/photo/msid-113083928/113083928.jpg?19874" alt="The Greatest of All Time">
+                <img src="https://m.media-amazon.com/images/M/MV5BZWEwNmYwYTAtMmQxYS00ZTgwLWE0NmUtNGIwZDEyZmYwN2EwXkEyXkFqcGc@._V1_.jpg" alt="Devara: Part 1">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQckBBriYcWVn2emte79nZHO1h-EM376o3JDg&s" alt="Hanu-Man">
+            </div>
+        </section>
+
+        <!-- Characters Section -->
+        <section id="characters">
+            <h3>Character Bios</h3>
+            <div class="character-list">
+                <h2 align="center">Kalki 2898 AD</h2>
+                <p><b>Bhairava:</b> The main character, played by Prabhas, is a bounty hunter who wants to enter the Complex.</p>
+                <p><b>Ashwatthama:</b> Played by Amitabh Bachchan, he is the son of Dronacharya.</p>
+                <p><b>Supreme Yaskin:</b> Played by Kamal Haasan, he is a totalitarian god-king.</p>
+                <p><b>SUM-80 alias Sumathi:</b> Played by Deepika Padukone, she is a pregnant lab subject.</p>
+                <p><b>Commander Manas:</b> Played by Saswata Chatterjee, he is a commander of the Complex.</p>
+                <p><b>Counsellor Bani:</b> Played by Anil George.</p>
+                <p><b>Kyra:</b> Played by Anna Ben, she is a rebel from Shambhala.</p> 
+                <p><b>Shobana as Mariam:</b> She is the leader of Shambhala.</p> 
+                <p><b>Pasupathy as Veeran:</b> He is a rebel from Shambhala.</p> 
+                <p><b>Keerthy Suresh as BU-JZ-1 alias Bujji:</b> She is Bhairava's companion AI droid.</p>
+                
+                <h2 align="center">Stree 2</h2>
+                <p><b>Vicky:</b> Played by Rajkummar Rao, Vicky is a tailor who falls in love.</p>
+                <p><b>Rudra:</b> Played by Pankaj Tripathi, Rudra is an expert in ancient texts.</p>
+                <p><b>Shamaa: </b> Played by Tamannaah Bhatia, Shamaa is revealed to be Rudra's partner.</p>
+                <p><b>Janna:</b> Played by Abhishek Banerjee, Janna is one of Vicky's loyal friends.</p>
+                <p><b>Bittu: </b> Played by Aparshakti Khurana, Bittu is one of Vicky's loyal friends.</p>
+                <p><b>Sarkata: </b> Played by Sunil Kumar, Sarkata is a headless monster.</p>
+                <p><b>Unnamed Woman:</b>  Played by Shraddha Kapoor, she plays a crucial role.</p> 
+                
+                <h2 align="center">The Greatest of All Time</h2>
+                <p><b>Gandhi: </b>  The main character, played by Vijay, is a hostage negotiator.</p>
+                <p><b>Rajiv Menon: </b> The main antagonist, played by Mohan.</p>
+                <p><b>Jeevitha Gandhi:  </b> The daughter of Gandhi, played by Abyukta Manikandan.</p>
+                
+                <h2 align="center">Devara: Part 1</h2>
+                <p><b>Devara: </b> The village chief, played by N.T. Rama Rao Jr.</p>
+                <p><b>Vara: </b>  Devara's son, also played by N.T. Rama Rao Jr.</p>
+                <p><b>Bhaira: </b>  A violent chieftain, played by Saif Ali Khan.</p>
+                <p><b>Thangam: </b>  Vara's love interest, played by Janhvi Kapoor.</p>
+                <p><b>Singappa: </b> A local storyteller, played by Prakash Raj.</p>
+                <p><b>Muruga:  </b> A politician-cum-smuggler, played by Murali Sharma.</p>
+                <p><b>Rayappa: </b> Thangam's father, played by Srikanth.</p> 
+                <p><b>Kora: </b>  Played by Shine Tom Chacko.</p> 
+                <p><b>Irfan: </b>  A Coast Guard officer, played by Narain.</p> 
+                <p><b>Kunjara: </b> Kora's brother, played by Kalaiyarasan.</p> 
+                
+                <h2 align="center">Hanu-Man</h2>
+                <p><b>Hanumanthu: </b> The main character, played by Teja Sajja.</p> 
+                <p><b>Anjamma: </b>  Hanumanthu's older sister, played by Varalaxmi Sarathkumar.</p>
+                <p><b>Meenakshi: </b>  A doctor, played by Amritha Aiyer.</p>
+                <p><b>Michael: </b>  The antagonist, played by Vinay Rai.</p>
+                
+            </div>
+            <div id="character-detail"></div>
+        </section>
+
+        <!-- Trailers Section -->
+        <section id="trailers">
+            <h3>Movie Trailers</h3>
+            <div class="trailer-gallery">
+                <iframe src="https://www.youtube.com/embed/aninoDcPWo4?si=0oG0CumJXLsrmCJr" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/KVnheXywIbY?si=fwGGm-otu8PZ_9CW" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/tl88lS74Uq4?si=j6gYzwwL0jwEjU4D" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/5cx7rvMvAWo?si=2UG9F0U3x6n5rzra" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/Oqvly3MvlXA?si=Q8mDXvPVJAIG1zHB" frameborder="0" allowfullscreen></iframe>
+                
+            </div>
+        </section>
+
+        <!-- Quotes Section -->
+        <section id="quotes">
+            <h3>Quote of the Day</h3>
+            <blockquote id="quote"></blockquote>
+        </section>
+
+        <!-- Trivia Section -->
+        <section id="trivia">
+            <h3>Trivia Quiz</h3>
+            <button onclick="startTrivia()">Start Quiz</button>
+            <div id="trivia-questions" style="display: none;">
+                <div id="question-container"></div>
+                <div id="trivia-result"></div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Movie Buff Central</p>
+    </footer>
+
+    <script>
+        const quotes = [
+            "Jagannatha Ratha Chakralo, Vasthunnai, Vasthunnai. Ratha Chakra Pralaya Gosham, Bhoomakam Pattisthaanu – Supreme Yaskin",
+            "Tu Bhediya hai, Animal mat bann – Janna"
+        ];
+
+        const triviaQuestions = [
+            {
+                question: "Who directed Devara Part 1?",
+                options: ["S. S. Rajamouli","Koratala Siva", "Karan Johar", "Siddharth Anand"],
+                answer: "Koratala Siva"
+            },
+            {
+                question: "Who played the role of Bhairava in Kalki 2898 AD?",
+                options: ["Vijay", "Amitabh Bachchan","Prabhas", "Kamal Haasan"],
+                answer: "Prabhas"
+            },
+            {
+                question: "Which movie features a character named Vicky?",
+                options: ["Devara Part 1", "Hanu-Man", "Stree 2","The GOAT"],
+                answer: "Stree 2"
+            },
+            {
+                question: "Who is the protagonist in Hanu-Man?",
+                options: ["Teja Sajja", "N.T. Rama Rao Jr.", "Vijay", "Rajkummar Rao"],
+                answer: "Teja Sajja"
+            },
+            {
+                question: "What is the name of SUM-80's alias?",
+                options: ["Bujji","Sumathi", "Kyra", "Mariam"],
+                answer: "Sumathi"
+            },
+            {
+                question: "Who played Rudra in Stree 2?",
+                options: ["Pankaj Tripathi", "Rajkummar Rao", "Aparshakti Khurana", "Sunil Kumar"],
+                answer: "Pankaj Tripathi"
+            },
+            {
+                question: "Who is the main antagonist in The Greatest of All Time?",
+                options: ["Vinay Rai", "Amitabh Bachchan","Mohan", "Saswata Chatterjee"],
+                answer: "Mohan"
+            },
+            {
+                question: "What is the profession of Gandhi in The Greatest of All Time?",
+                options: ["Hostage negotiator", "Bounty hunter", "Commander", "Spy"],
+                answer: "Hostage negotiator"
+            },
+            {
+                question: "Which movie features the character Sarkata?",
+                options: ["Hanu-Man", "Stree 2", "Kalki 2898 AD", "Devara Part 1"],
+                answer: "Stree 2"
+            },
+            {
+                question: "Who plays the role of Bhaira in Devara: Part 1?",
+                options: ["Vijay", "Kamal Haasan", "Rajkummar Rao","Saif Ali Khan"],
+                answer: "Saif Ali Khan"
+            }
+        ];
+
+        let currentQuestionIndex = 0;
+
+        function displayRandomQuote() {
+            const quoteElement = document.getElementById('quote');
+            const randomIndex = Math.floor(Math.random() * quotes.length);
+            quoteElement.innerText = quotes[randomIndex];
+        }
+
+        function startTrivia() {
+            document.getElementById('trivia-questions').style.display = 'block';
+            showQuestion();
+        }
+
+        function showQuestion() {
+            const questionContainer = document.getElementById('question-container');
+            if (currentQuestionIndex < triviaQuestions.length) {
+                const question = triviaQuestions[currentQuestionIndex];
+                questionContainer.innerHTML = `<p>${question.question}</p>` +
+                    question.options.map(option => 
+                        `<button onclick="checkAnswer('${option}')">${option}</button>`).join('');
+            } else {
+                questionContainer.innerHTML = "<p>Quiz Over!</p>";
+            }
+        }
+
+        function checkAnswer(selectedOption) {
+            const resultElement = document.getElementById('trivia-result');
+            const correctAnswer = triviaQuestions[currentQuestionIndex].answer;
+
+            if (selectedOption === correctAnswer) {
+                resultElement.innerText = "Correct!";
+            } else {
+                resultElement.innerText = "Incorrect! Try again.";
+            }
+            currentQuestionIndex++;
+            setTimeout(showQuestion, 2000);
+        }
+
+        // Call displayRandomQuote on page load
+        window.onload = displayRandomQuote;
+    </script>
+</body>
+</html>
